@@ -1,0 +1,1 @@
+curl -X POST "https://araujocognitiveservice.cognitiveservices.azure.com/text/analytics/v3.1/languages?" -H "Content-Type: application/json" -H "Ocp-Apim-Subscription-Key: 60219fe239d34b299595085f0287189e" --data-ascii "{'documents':           [{'id':1,'text':'hello'}]}"
